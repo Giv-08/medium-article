@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,300&display=swap');
+
+body {
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.banner h1{
+  font-size: 38px;
+}
+
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h2 {
+  color: #A0A0A0;
+  font-weight: 400;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  display: block;
+  font-family: 'Lora', serif;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+a {
+  text-decoration: none;
+  color: #494949;
+  font-size: 25px;
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+}
+
+a.link-medium {
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  font-family: 'Lora', serif;
+  font-style: italic;
+}
+a:hover {
+  background-color: rgb(25, 231, 162);
+  transition: 200ms;
+  cursor: pointer;
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
